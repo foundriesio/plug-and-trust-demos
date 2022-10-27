@@ -4,4 +4,6 @@
 #
 #
 
+INCLUDE(scripts/native.cmake)
+
 ADD_SUBDIRECTORY(se05x_GetInfo)
