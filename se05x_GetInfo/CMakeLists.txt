@@ -30,6 +30,10 @@ TARGET_INCLUDE_DIRECTORIES(
 TARGET_LINK_LIBRARIES(
     ${PROJECT_NAME}
     ex_common
+    se05x
+    a7x_utils
+    smCom
+    mwlog
     SSS_APIs
 )
 
